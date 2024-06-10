@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');/* Poppins Style font */
+.Login_wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height: 600px;
+    background: #292929;
+    opacity: 0.94;
+    border-radius: 20px;
+    backdrop-filter: blur(9.3px);
+    box-shadow: 0 1px 8px #d8f7e9;
+    -webkit-backdrop-filter: blur(9.3px);
+    border: 1px solid rgb(233, 241, 233);
+    transition: transform 0.5s ease;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('../CSS_folder/Background_image/login_page_background.jpg');
+    background-size: cover;
+}
+.signin_header{
+    background-color:black ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 270px;
+    height: 65px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.login_form{
+    margin-top: 65px;
+    display: grid;
+    place-items: center;
+    min-height: 100px;
+}
+.Register_form{
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+    min-height: 200px;
+}
+.input-field{
+    width: 350px;
+    background-color: #F8F8FF;
+    height: 30px;
+    bottom: 90px;
+    left: 130px;
+    border-radius: 8px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.input-field input{
+    height: 10px;
+    width: 90%;
+    padding: 10px 5px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.eye_style{
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+}
+.forgot_password{
+    margin-right: 220px;
+    font-size: 16px;
+}
+.login_btn{
+    height: 60px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: solid 1px;
+    border-color: rgb(137,171,130);
+    color: rgb(137,171,130) ;
+    background-color: transparent;
+    transition: background-color 0.5s, color 0.3s;   
+}
+.login_btn:hover{
+    background-color: rgb(137,171,130);
+    color:#F9F6EE;
+}
+.login_btn:active{
+    opacity: 0.7;
+}
+
+.l_line-container {
+    margin-top: 90px;
+    top: 10px;
+    left: 130px;
+    display: flex;
+    align-items: center;
+    bottom: 100px;
+    width: 400px;
+    font-size: 20px;
+}
+.l_line-container::before,
+.l_line-container::after {
+  flex: 1;
+  content: "";
+  border-bottom: 1px solid rgb(228, 217, 217);
+}
+
+.r_line-container {
+  margin-top: 30px;
+  top: 10px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  bottom: 100px;
+  width: 400px;
+  font-size: 20px;
+}
+.r_line-container::before,
+.r_line-container::after {
+flex: 1;
+content: "";
+border-bottom: 1px solid rgb(228, 217, 217);
+}
+
+.or_text{
+  padding: 0 10px;
+}
+.register_container{
+    font-size: 18px;
+    top: 5px;
+    left: 130px;
+}
+  
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .close:hover {
+    opacity: 0.5;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 10px;
+    content: ' ';
+    height: 30px;
+    width: 2px;
+    background-color:  rgb(252, 250, 248);
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+  

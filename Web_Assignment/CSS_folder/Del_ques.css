@@ -1,0 +1,80 @@
+
+.Main-wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #4e4e4ecc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Style all forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+    /* Style all input types such as text and number */
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+    /* Buttons styles */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    /* Button Style while hover */
+input[type="submit"]:hover {
+    background-color: #00f80c;
+}
+
+
+.Error-msg{
+    width: 200px;
+    height: 100px;
+    background-color: #00f80c;
+}
+
+.output{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #4e4e4ecc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.No{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffffcc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #e34916;
+
+}
+
+
+/* Limits the screen to make it look okay when window size change */
+@media screen and (max-width: 768px) {
+    .Main-wrapper {
+        width: 90%;
+    }
+}

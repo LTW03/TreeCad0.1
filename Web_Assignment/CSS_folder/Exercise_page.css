@@ -1,0 +1,90 @@
+
+.Question_content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.question_container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 700px;
+    font-size: 20px;
+}
+
+.Feedback_div{
+    margin-left: 30%;
+    display: grid;
+}
+
+.Feedback_div form #input_feedback{
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(11, 11, 11);
+    color: #ffffffe6;
+    padding: 0;
+    margin: 0;
+}
+
+.Feedback_div form p{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.question_container p {
+    font-weight: bold;
+}
+
+.question_container ul li {
+    margin-left: 20px;
+}
+.selection_box{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+.label_style {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.label_style input[type="radio"] {
+    margin-right: 10px;
+    width: 16px;
+}
+.label_style input[type="radio"]:checked + div > label {
+    color: red;
+}
+
+
+.submit_btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit_btn:hover {
+    background-color: #45a049; 
+}
+
+.submit_btn:active {
+    background-color: #3e8e41;
+}
+
+#timer {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
